@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Roboto&display=swap');
+
+.hedear{
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 223, 160);
+    justify-content:space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+.hedear__lista{
+display: flex;
+list-style: none;
+}
+.hedear__item{
+    margin: 0px 10px;
+}
+a:hover{
+    color:red;
+}
+.pestañas{
+    height: 70vh;
+    background-image: url("../img/imagen\ del\ inicio.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.pestañas__contenedor{
+    width: 550px;
+    position: relative;
+    left: 30px;
+}
+.pestañas__titulo{
+    font-family: 'Corinthia', cursive;
+    font-size: 4.5rem;
+    color: black;
+    font-weight: 400;
+}
+.pestañas__btn{
+    padding: 20px 12px;
+    border: none;
+    background-color: rgb(156, 53, 53);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.body{
+background-color:pink;
+}
+
+.presentacion{
+    background-color: rgb(241, 223, 160);
+    background-position: left;
+    padding: 100px;
+    margin: 50px;
+    height: 200px;
+    display: block;
+}
+.presentacion__logo{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    background-position:left;
+    
+}
+
+
+.presentacion__titulo{
+    color: rgb(12, 31, 49);
+    font-family: 'Lato', sans-serif;
+    font-style: 300;
+}
+.presentacion__descripcion{
+    color: rgb(2, 12, 22);
+    font-family: 'Lato', sans-serif;
+    font-style:italic
+}
+
+
+.nosotras{
+    display: flex;
+
+    background-color: pink;
+}
+
+.foto.nosotras{
+    background-position: center;
+}
+
+
+.contacto{
+    background-color: rgb(150, 5, 53);  
+
+}
+.contacto__img{
+    background-position: center
+}
+
+.contacto__parrafo{
+    color: rgb(37, 18, 37);
+    font-family: 'Lato', sans-serif;
+    font-style: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
